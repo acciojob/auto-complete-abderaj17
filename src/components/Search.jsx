@@ -21,7 +21,7 @@ setFilteredFruits(filtered);
   return (
     <div>
         <label htmlFor='search'><strong>Search: </strong>
-        <input type='text' onChange={(e)=> e.target.value}/>
+        <input type='text' onChange={handleChange}/>
        </label>
        {searchText && (
         <ul>
